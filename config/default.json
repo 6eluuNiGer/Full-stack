@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "Serebrianskyi",
+    "mongoUri": "mongodb+srv://Sasha:Luxeon123@cluster0-q3m7j.mongodb.net/app?retryWrites=true&w=majority"
+
+}   

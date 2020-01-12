@@ -1,0 +1,30 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+
+.input{
+  padding: 20px 5px;
+  margin-top: 30px;
+}
+input.red-input{
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 #fff  !important;
+
+}
+input.red-input:focus + label{
+  color:rgb(194, 3, 3)!important;
+  
+}
+
+
+
+
+label{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card{
+  border-radius: 10px;
+  height: 450px;
+}
