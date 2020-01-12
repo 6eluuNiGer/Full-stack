@@ -6,7 +6,7 @@ import { AuthContext } from '../context/authContext'
 export const AuthFinal = () => {
     const history = useHistory()
     const auth = useContext(AuthContext)
-    
+
     const logoutHandler = event => {
         event.preventDefault()
         auth.logout()
@@ -33,10 +33,14 @@ export const AuthFinal = () => {
                         <div className="card-content white-text">
                             <span className="card-title blue-text center">Thanks you</span>
                         </div>
+                        <i className="material-icons">check_circle</i>
+                        
                         <div className="dashboard" >
+                            
                             <button
                                 className="bbb"
                                 onClick={goHandler}
+                            /* disabled={loading} */
                             >
                                 Go to Dashboard
                         </button>
